@@ -2,7 +2,6 @@
 Use Python and the Zeep library to create an AXL application to add a new phone, directory number (line), end user, and then associate the user with the phone and line.
 
 ## Objectives
-The objective of this lab is to show how to:
     1- Set up Python with Zeep
     2- Create a SOAP client with Python and Zeep
     3- Set up a plugin for troubleshooting
