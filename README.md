@@ -18,9 +18,9 @@ The objective of this lab is to show how to:
     -A CUCM server with an administrator account. You can use your own, or you can reserve a test server via the DevNet sandbox
     -The Cisco AXL Toolkit
     -Python
-    -The Python package manager, or pip (The command pip may be pip3 on Mac and Linux -- keep that in mind for all pip operations)
+    -The Python package manager, or pip (The command pip may be pip3 on Mac and Linux)
     -Install OpenSSL if not already installed
     -Install the zeep library, which will install automatically all its dependencies
-```bash
-$ pip install zeep
-```
+        ```bash
+        $ pip install zeep
+        ```
