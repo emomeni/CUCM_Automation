@@ -15,26 +15,27 @@ The objective of this lab is to show how to:
 
 ## Prerequisites
     -A client operating system like Windows, Mac or Linux
-    -A CUCM server with an administrator account. You can use your own, or you can reserve a test server via the DevNet sandbox
+    -A CUCM server with an administrator account.
+     You can use your own, or you can reserve a test server via the DevNet sandbox
     -The Cisco AXL Toolkit
     -Python
     -The Python package manager, or pip (The command pip may be pip3 on Mac and Linux)
     -Install OpenSSL if not already installed
     -Install the zeep library, which will install automatically all its dependencies
-    -On Linux, zeep will attempt to install lxml automatically, but lxml requires libxml2 and libxslt, so you will need to install the libxml2-dev and libxslt-dev packages.
-
+    -On Linux, zeep will attempt to install lxml automatically,
+     but lxml requires libxml2 and libxslt, so you will need to install the libxml2-dev and libxslt-dev packages.
 
 ## Installation
 Use the package manager [pip](https://pip.pypa.io/en/stable/) to install zeep.
-
 ```bash
 $ pip install zeep
 ```
-
 ```bash
 $ sudo apt-get install libxml2-dev libxslt-dev
 ```
-
 ```bash
 $ sudo apt install libxml2-dev libxslt-dev
 ```
+
+## Reference
+[Cisco DevNet, Learning Labs Center ](https://www.cisco.com/)
