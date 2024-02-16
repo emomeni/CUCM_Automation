@@ -21,6 +21,10 @@ The objective of this lab is to show how to:
     -The Python package manager, or pip (The command pip may be pip3 on Mac and Linux)
     -Install OpenSSL if not already installed
     -Install the zeep library, which will install automatically all its dependencies
-        ```bash
-        $ pip install zeep
-        ```
+
+## Installation
+Use the package manager [pip](https://pip.pypa.io/en/stable/) to install zeep.
+
+```bash
+$ pip install zeep
+```
